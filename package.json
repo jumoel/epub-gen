@@ -1,5 +1,5 @@
 {
-  "name": "epub-gen",
+  "name": "@jumoel/epub-gen",
   "version": "0.1.0",
   "description": "A library to generate EPUB from HTML",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cyrilis/epub-gen.git"
+    "url": "https://github.com/jumoel/epub-gen.git"
   },
   "keywords": [
     "epub",
@@ -18,12 +18,15 @@
     "html",
     "epub-generator"
   ],
-  "author": "Cyril Hou <houshoushuai@gmail.com> (http://cyrilis.com/)",
+  "author": "Julian Møller Ellehauge <git@jumoel.com> (https://www.jumoel.com)",
+  "contributors": [
+    "Cyril Hou <houshoushuai@gmail.com> (http://cyrilis.com/)"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cyrilis/epub-gen/issues"
+    "url": "https://github.com/jumoel/epub-gen/issues"
   },
-  "homepage": "https://github.com/cyrilis/epub-gen",
+  "homepage": "https://github.com/jumoel/epub-gen",
   "dependencies": {
     "archiver": "^3.0.0",
     "cheerio": "^0.22.0",

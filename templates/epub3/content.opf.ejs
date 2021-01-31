@@ -64,7 +64,7 @@
         <% }) %>
         <itemref idref="toc" />
         <% content.forEach(function(content, index){ %>
-            <% if(!content.beforeToc && !content.excludeFromToc){ %>
+            <% if(!content.beforeToc){ %>
                 <itemref idref="content_<%= index %>_<%= content.id %>"/>
             <% } %>
         <% }) %>
